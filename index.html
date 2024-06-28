@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashish Bhatta Portfolio</title>
+    <link rel="stylesheet" href="./Css/bhatta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          const navLinks = document.querySelectorAll("nav ul li a");
+
+          navLinks.forEach(link => {
+              link.addEventListener("click", function() {
+                  navLinks.forEach(link => link.classList.remove("active"));
+                  this.classList.add("active");
+              });
+          });
+      });
+  </script>       
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">AASHISH</a>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about-container">About</a></li>
+                    <li><a href="https://drive.google.com/file/d/1wCwXgPGV0EFkYri85PA5Vd1uLcKMR1TE/view?usp=drive_link">Resume</a></li>
+                    <li><a href="#skill-section">Skills</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>HELLO!</h1>
+                <h2>I'm Aashish Bhatta</h2>
+                <h3>A Freelance Web Designer</h3>
+                <div class="buttons">
+                    <a href="#" class="btn">HIRE ME</a>
+                    <a href="#" class="btns">MY WORKS</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./images/homepagepp-removebg.png" alt="NOT FOUND">
+            </div>
+        </div>
+    </section>
+    <section id="about-container">
+    <div class="aboutcontainer">
+        <img src="./images/homepagepp-removebg.png" alt="Aashish Bhatta" class="image">
+            
+        <div class="text-container">
+            
+            <h1 class="heading">About </h1>
+            <p class="sub-heading"> <span style="color: #7D7D7D;">Hi there, I'm Aashish, your go-to front-end magician. I craft flawless websites using HTML, CSS, and JavaScript. When I'm not fixing pesky browser issues, I'm polishing animations and adding a touch of humor to my Git commits. Let's create some web magic together!</span> </p>
+            <p> <b>Name:</b></p>
+            <p><b>E-mail:</b></p>
+            <p><b>Address:</b></p>
+            <p><b>Phone:</b></p>
+            <p><b>Work: </b></p>
+            <p class="about">About Me</p>
+        </div>
+       
+    </div>
+    <div class="info">
+        <p>Aashish Bhatt</p>
+        <p>aashishbhatta@gmail.com</p>
+        <p>Anamnagar,Kathmandu,Nepal</p>
+        <p>9862488133</p>
+        <p>Frontend Developer</p>
+    </div>
+    <p style="font-size: 15px;"> <button class="cvbtn">Download CV</button></p>
+</section>
+<section class="contact-section" id="contact-section">
+    
+    <div class="contact-content">
+    <h1 class="contact-subheading">Contact </h1>
+    <h1 class="contact-heading"">Contact Me</h1>
+    <div class="contact-container">
+        <div class="icon">
+           <img src="./images/homepagepp-removebg.png" alt="address">
+            <div class="info1">ADDRESS</div>
+            <div class="info1">Anamnagar 29</div>
+            <div class="info1">Kathmandu,Nepal</div>
+        </div>
+        <div class="icon">
+            <img src="./images/callicon.png" alt="call">
+            <div class="info1">CONTACT NUMBER</div>
+            <div class="info1">+ 977 9862488133</div>
+        </div>
+        <div class="icon">
+           <img src="./images/emailicon.png" alt="email">
+            <div class="info1">EMAIL ADDRESS</div>
+            <div class="info1">aashish@gmail.com</div>
+        </div>
+        <div class="icon">
+           <img src="./images/streamline--web.svg" alt="internet">
+            <div class="info1">WEBSITE</div>
+            <div class="info1">www.google.com</div>
+        </div>
+    </div>
+</div>
+<div class="contact-content1">
+    <img src="./images/homepagepp-removebg.png" alt="not found" class="contact-image">
+    <div class=" form-container">
+        <form action="">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="emali;">Email</label>
+          <input type="email" id="email" name="lastname" placeholder="example@.com">
+      
+         
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div> 
+</div>
+</section>
+<section class="skill-section" id="skill-section">
+    <h1 class="skill-heading">Skills</h1>
+    <h1 class="skill-subheading"> My Skills</h1>
+    <p class="skill-info">I'm like a digital Swiss Army knife, equipped with Figma for designing snazzy interfaces, HTML and CSS for building those beautiful web pages, and JavaScript for adding all the cool, interactive bells and whistles. And when it comes to visuals, Photoshop is my magic wand for creating and tweaking stunning graphics. Basically, if the web were a cake, I'd be the baker, decorator, and taste-tester all in one!    </p>
+
+    <div class="skill-container">
+        <div class="row">
+          <div class="skill">
+            <span class="skill-name">Ms-Word</span>
+            <div class="progress-bar"> 
+              <div class="progress" style="width: 70%;"></div>
+              <span class="percentage">70%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">HTML5</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+              <span class="percentage">80%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">Photoshop</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%;"></div>
+              <span class="percentage">70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="skill">
+            <span class="skill-name">JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 25%;"></div>
+              <span class="percentage">25%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">CSS</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%;"></div>
+              <span class="percentage">85%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">MS-Excel</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+              <span class="percentage">80%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="project-section">
+        
+        <h1 class="project-subheading">  Projects</h1>
+        <h1 class="project-heading"> My Projects</h1>
+       
+        <div class="project-img">
+            <a href="https://www.figma.com/proto/NUb3g7t8T3iGMXLimhuHj6/Untitled?node-id=40-3" target="_blank">
+              <img src="./images/man.jpg" alt="" class="freelance" data-text="Freelance Project">
+            </a>
+            <a href="https://www.figma.com/proto/NUb3g7t8T3iGMXLimhuHj6/Untitled?node-id=40-3" target="_blank">
+              <img src="./images/barnding.jpg" alt="" class="branding" data-text="Branding Project">
+            </a>
+            <a href="https://www.figma.com/proto/NUb3g7t8T3iGMXLimhuHj6/Untitled?node-id=40-3" target="_blank">
+              <img src="./images/website.png" alt="" class="website" data-text="Website Project">
+            </a>
+            <a href="https://www.figma.com/proto/NUb3g7t8T3iGMXLimhuHj6/Untitled?node-id=40-3" target="_blank">
+              <img src="./images/figma.png" alt="" class="figma" data-text="Figma Project">
+            </a>
+          </div>
+</section>
+<footer>
+    <div class="footer-container">
+      <div class="footer-icons">
+        <ul>
+          <li><a href="https://www.linkedin.com/job   " target="_blank" ><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li><a href="https://www.instagram.com/bhatta.aashish5/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+          <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-youtube fa-2x"></i></a></li>
+          <li><a href="https://www.facebook.com/aashish.bhatta.1466?mibextid=ZbWKwL " target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+      </ul>
+      </div>
+
+  <div class="design">
+    <p > Designed By:Aashish Bhatta </p>
+  </div>
+</footer>
+      
+</body>
+
+
+</section>
+</body>
+</html>
